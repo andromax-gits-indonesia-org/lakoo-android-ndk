@@ -1,4 +1,4 @@
-FROM openjdk:9-jdk
+FROM openjdk:8-jdk
 MAINTAINER William Chong <williamchong@lakoo.com>
 
 RUN mkdir -p /opt/android-sdk-linux && mkdir -p ~/.android && touch ~/.android/repositories.cfg
